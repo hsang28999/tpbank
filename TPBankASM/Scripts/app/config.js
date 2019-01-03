@@ -18,118 +18,26 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, $locati
             {
                 url: "/login"
             })
-        .state('dashboard',
+        .state('menu',
             {
-                url: "/dashboard",
-                templateUrl: "html/dashboard.html"
+                url: "/menu",
+                templateUrl: "html/menu.html"
             })
-        .state('apartment',
-            {
-                url: "/apartment?page&type&search",
-                templateUrl: "html/apartment.html"
-            })
-        .state('apartmentdetail',
-            {
-                url: "/apartment-detail/:id",
-                templateUrl: "html/apartmentdetail.html"
-            })
-        .state('customerlist',
-            {
-                url: "/customer-list",
-                templateUrl: "html/customerlist.html"
-            })
-        .state('apartmentlist',
-            {
-                url: "/apartment-list",
-                templateUrl: "html/apartmentlist.html"
-            })
-        .state('contract',
-            {
-                url: "/contract",
-                templateUrl: "html/contract.html"
-            })
-        .state('contractdetail',
-            {
-                url: "/contract-detail/:id",
-                templateUrl: "html/contractdetail.html"
-            })
-        .state('visit',
-            {
-                url: "/visit?page&status",
-                templateUrl: "html/visit.html"
-            })
-        .state('visitdetail',
-            {
-                url: "/visit-detail/:id",
-                templateUrl: "html/visitdetail.html"
-            })
-        .state('system',
-            {
-                url: "/system",
-                abstract: true,
-                templateUrl: "html/system.html",
-            })
-        .state('system.account',
-            {
-                url: "/account?page&search",
-                templateUrl: "html/account.html"
-            })
-        .state('system.accountdetail',
+        .state('detail',
             {
                 url: "/account-detail/:id",
                 templateUrl: "html/accountdetail.html"
             })
-        .state('system.issue',
+        .state('history',
             {
-                url: "/issue?page&search",
-                templateUrl: "html/issue.html"
+                url: "/history",
+                templateUrl: "html/history.html"
             })
-        .state('system.issuedetail',
+        .state('deposit',
             {
-                url: "/issue-detail/:id",
-                templateUrl: "html/issuedetail.html"
+                url: "/deposit",
+                templateUrl: "html/deposit.html"
             })
-        .state('system.importcustomer',
-            {
-                url: "/import-customer",
-                templateUrl: "html/importcustomer.html"
-            })
-        .state('system.importapartment',
-            {
-                url: "/import-apartment",
-                templateUrl: "html/importapartment.html"
-            })
-        .state('maid',
-            {
-                url: "/maid",
-                abstract: true,
-                templateUrl: "html/maid.html",
-            })
-        .state('maid.list',
-            {
-                url: "/list?page&empID&fromDate&toDate",
-                templateUrl: "html/maidlist.html"
-            })
-        .state('maid.apartment',
-            {
-                url: "/apartment?page&empID&fromDate&toDate&apartment&building&address&projectId",
-                templateUrl: "html/maidapartment.html"
-            })
-        .state('maid.business',
-            {
-                url: "/business?page&search&fromDate&toDate&empID",
-                templateUrl: "html/maidbusiness.html"
-            })
-        .state('maid.problem',
-            {
-                url: "/problem?page&search",
-                templateUrl: "html/maidproblem.html"
-        })
-            .state('maid.water',
-                {
-                    url: "/water?page&search",
-                    templateUrl: "html/maidwater.html"
-                })
         ;
 }
 

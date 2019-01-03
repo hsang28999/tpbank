@@ -10,7 +10,7 @@
     'ngSanitize',                   // ngSanitize
     //'ngCsv',
     'ngAnimate',
-    'ngCkeditor',
+    // 'ngCkeditor',
 //    'rzTable',
     'ui.utils',
     'selectize',

@@ -14,5 +14,40 @@ namespace TPBankASM.Controllers
 
             return View();
         }
+
+        public ActionResult Login()
+        {
+            ViewBag.Title = "Login";
+
+            return View();
+        }
+
+        public ActionResult Details()
+        {
+            ViewBag.Title = "Details";
+
+            return View();
+        }
+
+        public ActionResult History()
+        {
+            ViewBag.Title = "History";
+
+            return View();
+        }
+
+        public ActionResult Deposit()
+        {
+            ViewBag.Title = "Deposit";
+
+            return View();
+        }
+
+        public ActionResult Menu()
+        {
+            ViewBag.Title = "Menu";
+
+            return View();
+        }
     }
 }
