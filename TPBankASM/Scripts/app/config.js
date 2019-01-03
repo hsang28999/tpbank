@@ -14,13 +14,14 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, $locati
     $locationProvider.html5Mode(true);
 
     $stateProvider
+
         .state('login',
             {
                 url: "/login"
             })
         .state('menu',
             {
-                url: "/menu",
+                url: "/",
                 templateUrl: "html/menu.html"
             })
         .state('detail',
