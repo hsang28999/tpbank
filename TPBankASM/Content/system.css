@@ -1,0 +1,213 @@
+
+.canho-header {
+	    margin-top: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.canho-header span{
+	font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.upload-btn{
+	margin-top: 20px;
+}
+
+.banner{
+	padding-bottom: 30px;
+    border-bottom: solid 1px #d5d6d9;
+}
+
+.canho-header input{
+display: inline-block;
+font-size: 14px;
+}
+
+.canho-header button{
+display: inline-block;
+width: 88px;
+    height: 36px;
+    background-color: rgb(7,147,133);
+    color: white;
+    border: none;
+    margin-left: 35px;
+}
+
+.number{
+	margin-top: 20px;
+}
+
+
+.number input{
+	height: 35px;
+	padding-left: 5px;
+}
+.select-info-text{
+	display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+	
+}
+
+.select-info{
+	width: 250px;
+    height: 35px;
+}
+
+
+
+.number span{
+	display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.submit-button{
+	padding: 9px 16px;
+	width: 88px;
+    height: 36px;
+    background-color: rgb(7,147,133);
+    color: white;
+    border: none;
+    margin-top: 65px;
+    margin-left: 85px;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+.fileContainer {
+    overflow: hidden;
+    position: absolute;
+    width: 86px;
+    display: inline-block;
+    height: 36px;
+    background-color: rgb(7,147,133);
+    color: white;
+    border: none;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: unset;
+    cursor: pointer;
+
+}
+
+.fileContainer [type=file] {
+   visibility: hidden;
+    
+
+
+}
+
+
+#mytext{
+    margin-left: 95px;
+    width: 185px;
+    height: 36px;
+    background: #fff;
+        padding-left: 5px;
+}
+
+
+.nindex .selectize-control{
+z-index: 9999;
+}
+
+
+
+
+
+/*#pin-table thead tr .col-pin{
+     position: sticky;
+     top: 0px;
+      z-index: 5;
+      border-top: 1px solid #ddd;
+}
+
+#pin-table thead tr th{
+     position: sticky;
+     top: 35px;
+      z-index: 5;
+      border-bottom: 1px solid #ddd;
+      border-top: none;
+}
+
+#pin-table thead tr th:first-child {
+        position: sticky;
+        z-index: 5;
+    }
+
+#pin-table tr td:first-child{
+     position: sticky;
+     z-index: 4;
+}
+
+
+#pin-table tbody tr td{
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+
+
+#pin-table .col-pin {
+        z-index: 7 !important;
+    }
+
+    #pin-table th.col-pin {
+        z-index: 8 !important;
+    }
+
+#pin-table .input-row {
+       /* padding: 3px;
+        width: 100%;
+        height: 100%;*/
+       /* border: none;*/
+        /*background: #fff;*/
+    }
+
+/*#table-wrapper > .row:nth-child(2) > .col-sm-12{
+    overflow: scroll;
+    padding: 0;
+    height: calc(100vh - 300px);
+}*/
+
+/*#table-wrapper .row .col-sm-12{
+    overflow: scroll;
+    padding: 0;
+    height: calc(100vh - 300px);
+}
+
+
+#table-wrapper > .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+     margin-top: 20px;
+}
+*/
+
+
+   
+
+
+
+
